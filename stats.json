@@ -1,4 +1,56 @@
 {
-  "generatedAt": "2026-10-08T19:44:37+00:00",
-  "machines": []
+  "generatedAt": "2026-10-08T19:52:18+00:00",
+  "machines": [
+    {
+      "name": "atlas",
+      "role": "primary hypervisor",
+      "location": "Bangalore",
+      "hardware": "a Lenovo ThinkCentre M715q Tiny",
+      "os": "Proxmox VE 9.2",
+      "kernel": "7.0",
+      "cpu": "AMD Ryzen 5 2400GE",
+      "threads": 8,
+      "memoryGb": 16,
+      "storageGb": 736,
+      "bootTime": 1788503426,
+      "guests": {
+        "running": 11,
+        "total": 11
+      },
+      "load": 0.52
+    },
+    {
+      "name": "vesta",
+      "role": "secondary hypervisor",
+      "location": "Navi Mumbai",
+      "hardware": "a headless Ryzen desktop",
+      "os": "Proxmox VE 9.2",
+      "kernel": "7.0",
+      "cpu": "AMD Ryzen 5 5500",
+      "threads": 12,
+      "memoryGb": 16,
+      "storageGb": 1980,
+      "bootTime": 1791483858,
+      "guests": {
+        "running": 3,
+        "total": 3
+      },
+      "load": 0.13
+    },
+    {
+      "name": "pippa",
+      "role": "camera and metrics",
+      "location": "Bangalore",
+      "hardware": "a Raspberry Pi 3 Model B",
+      "os": "Debian GNU/Linux 12 (bookworm)",
+      "kernel": "6.12",
+      "cpu": "Cortex-A53",
+      "threads": 4,
+      "memoryGb": 1,
+      "storageGb": 62,
+      "bootTime": 1789861085,
+      "load": 1.11,
+      "tempC": 60.1
+    }
+  ]
 }
