@@ -1,0 +1,14 @@
+#!/bin/sh
+# Prints this machine's stats as JSON. Installed as the forced command for the labstats SSH key.
+. /etc/os-release
+root_disk=$(lsblk -no PKNAME "$(findmnt -no SOURCE /)")
+printf '{"os":"%s","kernel":"%s","cpu":"%s","threads":%d,"memKb":%d,"diskBytes":%d,"bootTime":%d,"load":%s,"tempMilli":%d}\n' \
+  "$PRETTY_NAME" \
+  "$(uname -r)" \
+  "$(lscpu | sed -n 's/^Model name: *//p' | head -1)" \
+  "$(nproc)" \
+  "$(awk '/^MemTotal/ {print $2}' /proc/meminfo)" \
+  "$(lsblk -bdno SIZE "/dev/$root_disk")" \
+  "$(awk '/^btime/ {print $2}' /proc/stat)" \
+  "$(cut -d' ' -f1 /proc/loadavg)" \
+  "$(cat /sys/class/thermal/thermal_zone0/temp 2>/dev/null || echo 0)"

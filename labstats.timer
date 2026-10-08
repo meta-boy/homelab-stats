@@ -1,0 +1,10 @@
+[Unit]
+Description=Publish homelab stats once a day
+
+[Timer]
+OnCalendar=*-*-* 06:00:00 Asia/Kolkata
+RandomizedDelaySec=15m
+Persistent=true
+
+[Install]
+WantedBy=timers.target
