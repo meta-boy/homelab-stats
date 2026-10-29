@@ -1,24 +1,6 @@
 {
-  "generatedAt": "2026-10-28T00:40:49+00:00",
+  "generatedAt": "2026-10-29T00:39:09+00:00",
   "machines": [
-    {
-      "name": "atlas",
-      "role": "primary hypervisor",
-      "location": "Bangalore",
-      "hardware": "a Lenovo ThinkCentre M715q Tiny",
-      "os": "Proxmox VE 9.2",
-      "kernel": "7.0",
-      "cpu": "AMD Ryzen 5 2400GE",
-      "threads": 8,
-      "memoryGb": 16,
-      "storageGb": 736,
-      "bootTime": 1788503426,
-      "guests": {
-        "running": 12,
-        "total": 12
-      },
-      "load": 0.48
-    },
     {
       "name": "vesta",
       "role": "secondary hypervisor",
@@ -35,7 +17,7 @@
         "running": 9,
         "total": 9
       },
-      "load": 0.38
+      "load": 0.79
     },
     {
       "name": "pippa",
@@ -49,8 +31,8 @@
       "memoryGb": 1,
       "storageGb": 62,
       "bootTime": 1789861085,
-      "load": 1.12,
-      "tempC": 56.9
+      "load": 1.07,
+      "tempC": 58.0
     }
   ]
 }
