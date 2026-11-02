@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T00:37:26+00:00",
+  "generatedAt": "2026-11-02T00:41:26+00:00",
   "machines": [
     {
       "name": "vesta",
@@ -17,7 +17,7 @@
         "running": 9,
         "total": 9
       },
-      "load": 0.39
+      "load": 0.24
     },
     {
       "name": "pippa",
@@ -31,8 +31,8 @@
       "memoryGb": 1,
       "storageGb": 62,
       "bootTime": 1789861085,
-      "load": 1.17,
-      "tempC": 58.5
+      "load": 1.12,
+      "tempC": 59.6
     }
   ]
 }
