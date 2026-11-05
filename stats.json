@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:34:45+00:00",
+  "generatedAt": "2026-11-05T00:35:51+00:00",
   "machines": [
     {
       "name": "atlas",
@@ -17,7 +17,7 @@
         "running": 9,
         "total": 12
       },
-      "load": 0.61
+      "load": 0.8
     },
     {
       "name": "vesta",
@@ -28,14 +28,14 @@
       "kernel": "7.0",
       "cpu": "AMD Ryzen 5 5500",
       "threads": 12,
-      "memoryGb": 16,
+      "memoryGb": 32,
       "storageGb": 1980,
-      "bootTime": 1793692585,
+      "bootTime": 1793817136,
       "guests": {
-        "running": 11,
-        "total": 11
+        "running": 12,
+        "total": 12
       },
-      "load": 0.18
+      "load": 0.37
     },
     {
       "name": "pippa",
@@ -49,8 +49,8 @@
       "memoryGb": 1,
       "storageGb": 62,
       "bootTime": 1789861085,
-      "load": 0.98,
-      "tempC": 59.1
+      "load": 1.14,
+      "tempC": 58.0
     }
   ]
 }
