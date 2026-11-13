@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T00:31:07+00:00",
+  "generatedAt": "2026-11-13T00:34:52+00:00",
   "machines": [
     {
       "name": "atlas",
@@ -14,10 +14,10 @@
       "storageGb": 736,
       "bootTime": 1788503426,
       "guests": {
-        "running": 9,
-        "total": 12
+        "running": 10,
+        "total": 13
       },
-      "load": 0.36
+      "load": 0.67
     },
     {
       "name": "vesta",
@@ -30,12 +30,12 @@
       "threads": 12,
       "memoryGb": 32,
       "storageGb": 1980,
-      "bootTime": 1793817136,
+      "bootTime": 1793817135,
       "guests": {
         "running": 11,
         "total": 12
       },
-      "load": 0.83
+      "load": 0.05
     },
     {
       "name": "pippa",
@@ -49,8 +49,8 @@
       "memoryGb": 1,
       "storageGb": 62,
       "bootTime": 1789861085,
-      "load": 1.09,
-      "tempC": 58.5
+      "load": 1.57,
+      "tempC": 58.0
     }
   ]
 }
